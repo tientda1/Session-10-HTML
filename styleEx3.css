@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img1{
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    height: 300px;
+    display: flex;
+}
+.header{
+    display: flex;
+    border-radius: 5px;
+    justify-content: flex-end;
+}
+.textbox1{
+    margin: 10px;
+    position: absolute;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    padding: 9px;
+    border-radius: 5px;
+}
+.sport{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 10px;
+    background-color: #f9fafc;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.avt{
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    display: flex;
+}
+.text1{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    color: #8d8e8f;
+}
+.text2{
+    color: #262626;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.text3{
+    color: #7b7a7a;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
